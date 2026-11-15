@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>סקווישי – תמיכה ומדיניות פרטיות</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --pink:#ff8fb8; --pink-d:#e8558f; --lilac:#b9a3ff; --mint:#8fe3c8;
+    --cream:#fff6fa; --ink:#4a2b3d; --soft:#7d5a6e; --card:#ffffff;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:"Rubik",system-ui,sans-serif;color:var(--ink);
+    background:radial-gradient(circle at 15% 0%,#ffe3ef 0,transparent 45%),
+               radial-gradient(circle at 90% 20%,#ece4ff 0,transparent 40%),var(--cream);
+    line-height:1.7}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+  header{text-align:center;padding:24px 0 8px}
+  .blob{width:120px;height:110px;margin:0 auto 14px;position:relative;
+    background:radial-gradient(circle at 35% 30%,#fff 0 8%,transparent 9%),
+               linear-gradient(160deg,#ffc2d9,var(--pink));
+    border-radius:52% 48% 46% 54%/58% 56% 44% 42%;
+    box-shadow:inset -8px -12px 0 rgba(232,85,143,.25),0 14px 28px rgba(232,85,143,.25)}
+  .blob::before,.blob::after{content:"";position:absolute;top:46px;width:12px;height:16px;border-radius:50%;background:var(--ink)}
+  .blob::before{right:36px}.blob::after{left:36px}
+  .blob span{position:absolute;top:66px;left:50%;width:18px;height:9px;margin-left:-9px;
+    border:3px solid var(--ink);border-top:none;border-radius:0 0 12px 12px}
+  h1{font-size:2.4rem;font-weight:800;margin:0;color:var(--pink-d)}
+  .tag{color:var(--soft);margin:4px 0 18px}
+  nav{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  nav a{text-decoration:none;color:var(--ink);background:#fff;padding:8px 18px;border-radius:999px;
+    font-weight:500;box-shadow:0 3px 0 #f3c6d8}
+  section{background:var(--card);border-radius:24px;padding:24px 26px;margin-top:24px;
+    box-shadow:0 6px 0 #f6d3e1,0 14px 30px rgba(74,43,61,.06)}
+  h2{margin:0 0 10px;font-size:1.5rem}
+  h3{margin:18px 0 4px;font-size:1.08rem;color:var(--pink-d)}
+  p{margin:6px 0}
+  ul{margin:6px 0;padding-inline-start:22px}
+  li{margin:4px 0}
+  .contact{background:linear-gradient(135deg,#fff0f6,#f3eeff);border-radius:16px;padding:16px 18px;margin-top:10px}
+  .email{font-weight:700;direction:ltr;unicode-bidi:embed;color:var(--pink-d);text-decoration:none}
+  details{border-top:1px solid #f6dbe6;padding:10px 0}
+  details:first-of-type{border-top:none}
+  summary{cursor:pointer;font-weight:700;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  summary::before{content:"+";display:inline-block;width:22px;color:var(--pink-d);font-weight:800}
+  details[open] summary::before{content:"–"}
+  details p{margin:6px 22px 0 0;color:var(--soft)}
+  .muted{color:var(--soft);font-size:.92rem}
+  footer{text-align:center;color:var(--soft);font-size:.88rem;margin-top:32px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="blob"><span></span></div>
+    <h1>סקווישי</h1>
+    <p class="tag">מגדלים, מוחצים, אוספים ומחליפים סקווישים</p>
+    <nav>
+      <a href="#support">תמיכה</a>
+      <a href="#faq">שאלות נפוצות</a>
+      <a href="#privacy">מדיניות פרטיות</a>
+    </nav>
+  </header>
+
+  <section id="support">
+    <h2>תמיכה</h2>
+    <p>נתקלתם בבעיה, יש לכם רעיון לסקווישי חדש או שאלה על האפליקציה? נשמח לשמוע.</p>
+    <div class="contact">
+      <p>כתבו לנו במייל: <a class="email" href="mailto:noteyappil@gmail.com">noteyappil@gmail.com</a></p>
+      <p class="muted">כדאי לציין את דגם המכשיר, גרסת iOS ומה בדיוק קרה, כדי שנוכל לעזור מהר יותר. אנחנו משתדלים לענות תוך כמה ימים.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>שאלות נפוצות</h2>
+    <details>
+      <summary>איך מרוויחים מטבעות?</summary>
+      <p>משחקים באחד משמונת המיני משחקים בלשונית המשחקים. כל משחק נותן מטבעות לפי הניקוד, ואיתם קונים אוכל, בגדים, קישוטים וסקווישים חדשים בחנות.</p>
+    </details>
+    <details>
+      <summary>איך עושים טרייד עם חבר?</summary>
+      <p>בלשונית הטריידים עוברים ל"חברים", מוסיפים חבר לפי שם המשתמש שלו, בוחרים מה מציעים ומה רוצים ממנו, ושולחים הצעה. החבר יכול לאשר או לסרב. אם הוא מסרב, הסקווישים חוזרים אליכם.</p>
+    </details>
+    <details>
+      <summary>למה צריך שם משתמש?</summary>
+      <p>שם המשתמש מאפשר להופיע בטבלת הדירוג ולקבל הצעות טרייד מחברים. לא צריך מייל, סיסמה או פרטים אישיים, רק שם. אל תשתמשו בשם המלא האמיתי שלכם.</p>
+    </details>
+    <details>
+      <summary>הטריידים והדירוג לא עובדים</summary>
+      <p>התכונות האונליין דורשות חיבור לאינטרנט ומשתמש iCloud מחובר במכשיר (הגדרות ← השם שלכם למעלה). אם הבעיה נמשכת, כתבו לנו.</p>
+    </details>
+    <details>
+      <summary>מחקתי את האפליקציה, ההתקדמות נשמרה?</summary>
+      <p>המטבעות, הסקווישים וההתקדמות נשמרים במכשיר עצמו, ולכן מחיקת האפליקציה מוחקת אותם. שם המשתמש שבחרתם נשמר בענן.</p>
+    </details>
+    <details>
+      <summary>אין שם צ'אט?</summary>
+      <p>נכון, ובכוונה. אין באפליקציה צ'אט או הודעות חופשיות בין משתמשים, רק הצעות טרייד. כך היא בטוחה גם לילדים.</p>
+    </details>
+  </section>
+
+  <section id="privacy">
+    <h2>מדיניות פרטיות</h2>
+    <p class="muted">עודכן לאחרונה: נובמבר 2026</p>
+    <p>אנחנו אוספים כמה שפחות מידע. האפליקציה לא דורשת הרשמה, מייל או טלפון.</p>
+
+    <h3>מה נשמר במכשיר שלכם בלבד</h3>
+    <p>מצב הסקווישי, מטבעות, אוסף, בגדים, קישוטים והגדרות. המידע הזה לא נשלח אלינו.</p>
+
+    <h3>מה נשמר בענן (Apple iCloud)</h3>
+    <p>כדי שהדירוג והטריידים עם חברים יעבדו, נשמרים במסד הנתונים הציבורי של האפליקציה ב-iCloud של אפל:</p>
+    <ul>
+      <li>שם המשתמש שבחרתם</li>
+      <li>הניקוד הגבוה שלכם בכל משחק</li>
+      <li>רשימת הסקווישים באוסף שלכם (כדי שחברים יוכלו להציע טרייד)</li>
+      <li>הצעות טרייד שנשלחו והתשובות עליהן</li>
+    </ul>
+    <p>שם המשתמש, הניקוד והאוסף גלויים למשתמשים אחרים באפליקציה. אנחנו לא מקבלים את שמכם האמיתי, המייל או מספר הטלפון שלכם. אפל מזהה את חשבון ה-iCloud באמצעות מזהה אנונימי בלבד.</p>
+
+    <h3>מה אנחנו לא עושים</h3>
+    <ul>
+      <li>אין פרסומות</li>
+      <li>אין מעקב (tracking) ואין כלי אנליטיקה של צד שלישי</li>
+      <li>לא מוכרים ולא משתפים מידע עם אף אחד</li>
+      <li>אין צ'אט פתוח בין משתמשים</li>
+      <li>אין גישה למצלמה, למיקום או לאנשי הקשר</li>
+    </ul>
+
+    <h3>ילדים</h3>
+    <p>האפליקציה מתאימה לכל המשפחה ואינה אוספת מידע אישי מזהה. שמות משתמש עוברים סינון מילים פוגעניות. מומלץ שהורים יעזרו לילדים לבחור שם משתמש שאינו השם האמיתי.</p>
+
+    <h3>מחיקת מידע</h3>
+    <p>מחיקת האפליקציה מוחקת את כל המידע שבמכשיר. כדי למחוק את שם המשתמש, הניקוד והאוסף מהענן, שלחו לנו מייל עם שם המשתמש ונמחק אותם.</p>
+
+    <h3>יצירת קשר</h3>
+    <p>שאלות על הפרטיות: <a class="email" href="mailto:noteyappil@gmail.com">noteyappil@gmail.com</a></p>
+  </section>
+
+  <footer>סקווישי © 2026</footer>
+</div>
+</body>
+</html>
